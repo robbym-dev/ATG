@@ -1,5 +1,5 @@
-from linear_tools import fetch_teams, create_ticket_in_linear
-from ticket_generation import call_language_model
+from src.linear_tools import fetch_teams, create_ticket_in_linear
+from src.ticket_generation import call_language_model
 
 def select_team(teams):
     """
