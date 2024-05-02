@@ -1,6 +1,6 @@
 # Autonomous Ticket Generator (ATG) for Linear!
 
-The Autnomous Ticket Generator (ATh) is a Python script that allows users to make issues in Linear, a modern issue tracking tool, right from the command line. It gives users options for picking out their issue's priority level and team it will be assigned to. The program can also create good-scoped issue descriptions on its own using a Language Model.
+The Autnomous Ticket Generator (ATG) is a Python script that allows users to make issues in Linear, a modern issue tracking tool, right from the command line. It gives users options for picking out their issue's priority level and team it will be assigned to. The program can also create good-scoped issue descriptions on its own using a Language Model.
 
 ## How it Works
 
