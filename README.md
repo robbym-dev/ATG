@@ -19,7 +19,7 @@ Users are prompted to enter the task title, ensuring that it is at least 4 chara
 
 ### Issue Creation
 
-Once the user provides the necessary information, the script generates a detailed issue description using a Language Model (LLM) and submits the issue to Linear with the specified priority and team assignment.
+Once the user provides the necessary information, the script generates a detailed issue description using a Language Model (LLM) and submits the well-scoped issue to Linear with the specified priority and team assignment.
 
 ## Language Model (LLM)
 
@@ -27,7 +27,7 @@ The Language Model (LLM) utilized in this project is GPT3.5. To generate high-qu
 
 ### Ticket Generation
 
-The LLM understands the context of issue creation and is few-shot prompted to generate well-scoped issue descriptions based on the provided task title. It takes into account various factors such as project context, task details, and other tickets to produce comprehensive and actionable issue descriptions.
+The LLM understands the context of issue creation and is few-shot prompted to generate well-scoped issue descriptions based on the provided task title. It takes into account various factors such as project context, task details, and other tickets to produce comprehensive and actionable issue descriptions; ensuring there is little to no room for ambiguity with the ticket details.
 
 ## Installation
 
