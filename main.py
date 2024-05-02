@@ -44,9 +44,9 @@ def main():
     if not team_id:
         return  # Exit if no valid team has been selected
 
-    ticket_title = input("Enter the task title: ")
+    ticket_title = input("Enter the Ticket title: ")
     if len(ticket_title) < 4:
-        print("Task title must be at least 4 characters long.")
+        print("Ticket title must be at least 4 characters long.")
         return
 
     try:
