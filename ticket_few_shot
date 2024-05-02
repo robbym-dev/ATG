@@ -1,0 +1,105 @@
+### Example Prompt 1
+### Ticket Title: Develop a Secure API for Payment Processing
+### Description:
+Develop a RESTful API to handle payment transactions securely. The API should integrate with major payment gateways and support various payment methods including credit cards and PayPal.
+### Acceptance Criteria:
+1. API supports POST requests for initiating transactions.
+2. Integration with Stripe and PayPal payment gateways.
+3. All data transmissions must be encrypted using TLS.
+### Sub-tasks:
+1. Design the API endpoints.
+2. Implement authentication and authorization mechanisms.
+3. Write integration tests for each payment method.
+4. Engineer pipeline for API call.
+### Dependencies:
+Depends on the external payment gateway documentation and the availability of sandbox accounts for testing. 
+### Documentation:
+Update the API documentation to include usage examples and security guidelines.
+### Assumptions:
+Assuming access to payment gateway APIs and secure server environments for development and testing.
+### Timeline:
+Estimated completion within 1 month, with key milestones at the end of each week.
+### Compliance Needs:
+Ensure that the API complies with international financial regulations and data protection laws (e.g., GDPR, PCI-DSS).
+### Security Protocols:
+Outline specific security measures and protocols that need to be implemented to safeguard payment transactions.
+### Notes:
+Ensure compliance with PCI-DSS standards for handling credit card transactions.
+--- 
+
+### Example Prompt 2
+### Ticket Title: Implement User Authentication System
+### Description:
+Create a comprehensive user authentication system that supports both traditional username/password and OAuth-based logins.
+### Acceptance Criteria:
+1. Users can register and log in using both methods.
+2. Passwords must be stored securely using bcrypt hashing.
+### Sub-tasks:
+1. Design database schema for user credentials.
+2. Implement OAuth 2.0 integration.
+3. Conduct load testing to ensure system can handle high login volumes.
+4. Set up user session management.
+5. Integrate multi-factor authentication (MFA).
+### Dependencies:
+Requires OAuth credentials from Facebook and Google.
+### Documentation:
+Documentation should include setup instructions and environment variables needed.
+### Assumptions:
+Assuming that the current infrastructure can support the integration of new authentication methods without major overhauls.
+### Timeline:
+Project completion expected in 6 months, with initial testing in the third month.
+### User Experience Enhancements:
+Propose design improvements for login workflows to enhance user satisfaction and accessibility.
+### Future Proofing:
+Discuss potential for integrating additional authentication methods in the future, such as biometrics or single sign-on (SSO) capabilities.
+### Notes:
+The system should be designed to scale easily with an increasing number of users.
+---
+
+### Example Prompt 3
+### Ticket Title: Upgrade Database Infrastructure
+### Description:
+Upgrade the existing MySQL database to PostgreSQL to enhance performance and security features.
+### Acceptance Criteria:
+1. Zero downtime during the database migration.
+2. All existing data must be accurately migrated to PostgreSQL.
+### Sub-tasks:
+1. Set up a parallel PostgreSQL environment.
+2. Write migration scripts to transfer data.
+3. Perform extensive testing to validate data integrity.
+### Dependencies:
+Coordination with the DevOps team for necessary hardware and software setups.
+### Documentation:
+Document the migration process, including rollback procedures.
+### Assumptions:
+Assuming availability of resources to set up a parallel testing environment without affecting current operations.
+### Timeline:
+Total estimated time for completion is 5 months, with the first 2 months dedicated to planning and setup.
+### Performance Monitoring:
+Establish metrics and monitoring strategies to evaluate the performance improvements post-migration.
+### Disaster Recovery:
+Develop a detailed disaster recovery plan that includes frequent backups and failover mechanisms during and after the migration.
+### Notes:
+Monitor performance metrics post-migration to ensure there are no regressions.
+---
+
+### Template Prompt
+### Ticket Title: {ticket_title}
+### Description:
+Provide a detailed description of what needs to be done.
+### Acceptance Criteria:
+1. List the specific conditions that must be met for the task to be considered complete. Include necessary tests and validation methods.
+### Sub-tasks:
+1. Break down the task into smaller, actionable parts. Include key development milestones and integration points.
+### Dependencies:
+Detail any dependencies on other projects, code modules, or external systems.
+### Documentation:
+Specify documentation updates needed, including user guides and system manuals.
+### Assumptions:
+State any assumptions that are being made in the planning and execution of this task.
+### Timeline:
+Provide an estimated timeline for the completion of this task, including key milestones.
+### (Add Section Name):
+If applicable, consider the specific needs and challenges of this task. If there are other relevant aspects that need to be addressed, please add create the sections and add the information.
+### Notes:
+Include any general assumptions or important points that a developer might need to know. Ensure secure handling of user data during registration and storage to protect user privacy.
