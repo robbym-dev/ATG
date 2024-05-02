@@ -41,7 +41,7 @@ git clone https://github.com/robbym-dev/ATG.git
 3. Initialize OpenAI and Linear API Key with the following command: 
 ```python
 export OPENAI_API_KEY=<your key here>
-export TOGETHER_API_KEY=<your key here>
+export LINEAR_API_KEY=<your key here>
 ```
 4. Run the `main.py` script using `python main.py` and follow the on-screen instructions to create an issue.
 
