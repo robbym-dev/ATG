@@ -1,3 +1,15 @@
+"""
+main.py - 
+Main Program
+
+This script contains the main program logic for creating a ticket in Linear.
+It fetches teams, prompts the user to select a team, validates inputs, generates ticket text,
+
+Functions: 
+- select_team(teams): Facilitates the selection of a team from a provided list of teams.
+- main(): Pulls together program and conducts ticket creation in Linear.
+"""
+
 from src.linear_tools import fetch_teams, create_ticket_in_linear
 from src.ticket_generation import call_language_model
 

@@ -1,6 +1,3 @@
-import requests
-from src.config import GRAPHQL_ENDPOINT, LINEAR_API_KEY
-
 """
 linear_tools.py -
 Linear Ticket Management Functions
@@ -17,6 +14,9 @@ Functions:
 - create_ticket_in_linear(title, description, team_id, priority): Creates a ticket in Linear with the specified details.
 
 """
+import requests
+from src.config import GRAPHQL_ENDPOINT, LINEAR_API_KEY
+
 
 def fetch_teams():
     """
