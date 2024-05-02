@@ -44,7 +44,7 @@ def main():
     if not team_id:
         return  # Exit if no valid team has been selected
 
-    ticket_title = input("Enter the Ticket title: ")
+    ticket_title = input("Enter the ticket title: ")
     if len(ticket_title) < 4:
         print("Ticket title must be at least 4 characters long.")
         return
