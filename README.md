@@ -23,11 +23,11 @@ Once the user provides the necessary information, the script generates a detaile
 
 ## Language Model (LLM)
 
-The Language Model (LLM) utilized in this project is a state-of-the-art natural language processing model trained on a diverse dataset. It has been fine-tuned on high-quality few-shot examples of issue descriptions to ensure accurate and well-scoped ticket generation.
+The Language Model (LLM) utilized in this project is GPT3.5. To generate high-quality tickets, it is always few-shot prompted with high-quality [ticket examples](https://github.com/robbym-dev/ATG/blob/main/ticket_few_shot) to ensure accurate and well-scoped ticket generation.
 
 ### Ticket Generation
 
-The LLM understands the context of issue creation and has been trained to generate full-fledged, well-scoped issue descriptions based on the provided task title. It takes into account various factors such as project context, task details, and priority level to produce comprehensive and actionable issue descriptions.
+The LLM understands the context of issue creation and is few-shot prompted to generate well-scoped issue descriptions based on the provided task title. It takes into account various factors such as project context, task details, and other tickets to produce comprehensive and actionable issue descriptions.
 
 ## Installation
 
