@@ -24,7 +24,7 @@ def generate_prompt(ticket_title):
     - str: A prompt containing examples and a template filled with the task title.
     """
     
-    with open('ticket_few_shot', 'r') as file:
+    with open('./src/ticket_few_shot', 'r') as file:
         content = file.read()
 
     # Split the content into sections
